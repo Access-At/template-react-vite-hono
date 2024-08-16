@@ -8,8 +8,8 @@ This template provides a minimal setup to get React working in Vite with HMR, so
 - TypeScript for type safety
 - Vite for fast development and building
 - Hono for API routes
-<!-- - Hot Module Replacement (HMR) for quick updates during development -->
 - ESLint for code linting
+<!-- - Hot Module Replacement (HMR) for quick updates during development -->
 
 ## Getting Started
 
@@ -29,8 +29,8 @@ This template provides a minimal setup to get React working in Vite with HMR, so
 
 - `npm run dev` - Starts the development server
 - `npm run build` - Builds the app for production
-<!-- - `npm run serve` - Serves the built app -->
 - `npm run lint` - Runs ESLint to check your code
+<!-- - `npm run serve` - Serves the built app -->
 
 For more information on Hono, visit the [official Hono documentation](https://hono.dev/).
 
