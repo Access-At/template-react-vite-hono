@@ -16,8 +16,8 @@ This template provides a minimal setup to get React working in Vite with HMR, so
 1. Clone this repository
 2. Run `npm install` to install dependencies
 3. Run `npm run dev` to start the development server
-4. Open your browser and navigate to `http://localhost:5173`
-5. Open your browser and navigate to `http://localhost:3000/api/`
+4. Open your browser and navigate to ui `http://localhost:5173`
+5. Open your browser and navigate to api `http://localhost:3000/api/`
 
 ## Project Structure
 
