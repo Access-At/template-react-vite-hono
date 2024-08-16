@@ -32,25 +32,6 @@ This template provides a minimal setup to get React working in Vite with HMR, so
 <!-- - `npm run serve` - Serves the built app -->
 - `npm run lint` - Runs ESLint to check your code
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules. Follow these steps:
-
-1. Configure the top-level `parserOptions` property in your ESLint config file:
-
-export default tseslint.config({
-languageOptions: {
-parserOptions: {
-project: ['./tsconfig.node.json', './tsconfig.app.json'],
-tsconfigRootDir: import.meta.dirname,
-},
-},
-})
-
-2. Replace `tseslint.configs.recommended` with `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-3. Optionally add `...tseslint.configs.stylisticTypeChecked`
-4. Install and configure `eslint-plugin-react` for React-specific linting rules
-
 For more information on Hono, visit the [official Hono documentation](https://hono.dev/).
 
 Happy coding!
