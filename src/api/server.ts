@@ -10,6 +10,13 @@ app.use(
   })
 );
 
+app.get("/", (c) =>
+  c.json({
+    status: true,
+    message: "Hello this is api",
+  })
+);
+
 app.get("/test", (c) =>
   c.json({
     status: true,
