@@ -1,7 +1,7 @@
-import { useFetch } from "@/query/get";
+import { useGetQuery } from "@/query/get";
 
 export default function Home() {
-  const { data: get, isPending, isError, error } = useFetch();
+  const { data: get, isPending, isError, error } = useGetQuery();
 
   if (isPending) return <div>Loading...</div>;
   if (isError) return <div>Error: {error instanceof Error ? error.message : "An unknown error occurred"}</div>;
