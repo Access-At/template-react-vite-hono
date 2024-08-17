@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "frontend:ui": "bunx --bun vite",
-    "backend:api": "bun run --hot src/api/server.ts",
-    "build": "tsc -b && vite build",
+    "backend:api": "bun run --hot src/api/index.ts",
+    "build": "bunx --bun vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "dev": "concurrently \"bun frontend:ui\" \"bun backend:api\""
