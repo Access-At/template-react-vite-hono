@@ -1,7 +1,7 @@
 import axiosIntance from "axios";
 
 export const axiosApi = axiosIntance.create({
-  baseURL: `${import.meta.env.VITE_API}/api`,
+  baseURL: `${window.location.origin}/api`,
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
@@ -10,7 +10,7 @@ export const axiosApi = axiosIntance.create({
 });
 
 export const axios = axiosIntance.create({
-  baseURL: `${import.meta.env.VITE_API}`,
+  baseURL: `${window.location.origin}`,
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
